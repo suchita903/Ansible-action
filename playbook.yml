@@ -1,0 +1,6 @@
+--- 
+- hosts: all
+  user: root
+  become: yes
+  connections: ssh
+  gather_facts: yes
